@@ -1,0 +1,402 @@
+[
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]}_area{6792:1948:1258}",
+        "energy": "energy{10000:12548:13178}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[1, 1, 2]}_area{9056:943}",
+        "energy": "energy{10000:12679}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{749:4512:4448:289}",
+        "energy": "energy{10000:8962:9944:10060}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[0, 1, 2]:[1, 1, 2]}_area{8074:419:1505}",
+        "energy": "energy{10000:11859:11240}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{536:5958:3504}",
+        "energy": "energy{10000:9741:9859}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[0, 1, 2]:[1, 1, 2]}_area{7661:2338}",
+        "energy": "energy{10000:10587}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{8610:1389}",
+        "energy": "energy{10000:13503}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{1819:1061:7118}",
+        "energy": "energy{10000:9694:9760}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]}_area{7124:2875}",
+        "energy": "energy{10000:12650}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[1, 1, 2]}_area{9881:118}",
+        "energy": "energy{10000:13614}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{9993:6}",
+        "energy": "energy{10000:15318}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{9128:871}",
+        "energy": "energy{10000:13525}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]}_area{1984:8015}",
+        "energy": "energy{10000:9486}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 2]}_area{5030:4969}",
+        "energy": "energy{10000:10606}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[0, 1, 2]:[1, 1, 2]}_area{8778:1221}",
+        "energy": "energy{10000:11013}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]:[1, 1, 2]}_area{0:8235:1764}",
+        "energy": "energy{10000:8945:9650}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]:[1, 1, 2]}_area{2439:2823:4737}",
+        "energy": "energy{10000:9916:10408}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{476:9523}",
+        "energy": "energy{10000:6898}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[1, 1, 2]}_area{9841:158}",
+        "energy": "energy{10000:13533}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[0, 1, 2]:[1, 1, 2]}_area{9092:907}",
+        "energy": "energy{10000:11169}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[0, 1, 2]:[1, 1, 2]}_area{757:6812:2429}",
+        "energy": "energy{10000:9671:10199}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]:[1, 1, 2]}_area{3027:2947:4025}",
+        "energy": "energy{10000:11080:11150}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{4127:5469:402}",
+        "energy": "energy{10000:9091:11307}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]}_area{3348:6651}",
+        "energy": "energy{10000:11181}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{271:9728}",
+        "energy": "energy{10000:8384}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]}_area{6709:3290}",
+        "energy": "energy{10000:12386}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{22:7521:2455}",
+        "energy": "energy{10000:9021:9511}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{8175:1824}",
+        "energy": "energy{10000:12715}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{4732:3833:1434}",
+        "energy": "energy{10000:11316:11057}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{1948:8051}",
+        "energy": "energy{10000:8413}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{4143:720:3565:1570}",
+        "energy": "energy{10000:12225:11464:12109}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]}_area{4885:3324:1790}",
+        "energy": "energy{10000:11373:11809}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[0, 1, 2]}_area{8409:1262:327}",
+        "energy": "energy{10000:13395:12909}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{4575:4754:670}",
+        "energy": "energy{10000:11110:11107}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]}_area{2106:1666:3828:2398}",
+        "energy": "energy{10000:10361:9757:10521}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{121:4548:337:4993}",
+        "energy": "energy{10000:8172:8776:8576}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{2879:22:6863:234}",
+        "energy": "energy{10000:13451:10981:12784}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{5502:351:4145}",
+        "energy": "energy{10000:10939:10708}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{2610:99:3519:3770}",
+        "energy": "energy{10000:10684:10274:10265}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{27:6769:20:664:2518}",
+        "energy": "energy{10000:7864:9099:9093:8652}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{402:3579:926:4937:153}",
+        "energy": "energy{10000:9403:10249:9598:10509}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{3206:6472:41:278}",
+        "energy": "energy{10000:8849:12306:11302}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]}_area{1097:8902}",
+        "energy": "energy{10000:8758}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]:[1, 1, 2]}_area{2075:2667:5256}",
+        "energy": "energy{10000:9746:10201}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{9997:2}",
+        "energy": "energy{10000:16211}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]}_area{5917:199:3096:786}",
+        "energy": "energy{10000:12916:11706:12376}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{4215:775:2589:191:2227}",
+        "energy": "energy{10000:12039:10880:11961:11355}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{5518:2071:434:1975}",
+        "energy": "energy{10000:12085:12604:12346}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{966:3804:1909:2754:564}",
+        "energy": "energy{10000:9497:9739:9966:10332}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{9133:866}",
+        "energy": "energy{10000:14253}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{9304:695}",
+        "energy": "energy{10000:14425}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{2621:353:756:6267}",
+        "energy": "energy{10000:10240:10753:10019}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{133:2635:4572:2658}",
+        "energy": "energy{10000:8989:9560:9422}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{1256:4:8738}",
+        "energy": "energy{10000:10101:9562}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{257:9742}",
+        "energy": "energy{10000:8801}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{2875:131:600:6392}",
+        "energy": "energy{10000:11945:10777:10661}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[0, 1, 2]}_area{9901:98}",
+        "energy": "energy{10000:12296}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]:[0, 1, 2]}_area{7903:1811:284}",
+        "energy": "energy{10000:13019:13168}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{544:624:6814:2016}",
+        "energy": "energy{10000:9178:7719:9071}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{7309:0:1226:1463}",
+        "energy": "energy{10000:14295:12718:13492}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]}_area{9429:570}",
+        "energy": "energy{10000:13244}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]}_area{6216:268:2622:892}",
+        "energy": "energy{10000:12946:12066:12412}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{3288:5825:886}",
+        "energy": "energy{10000:8973:11021}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]}_area{1736:8263}",
+        "energy": "energy{10000:10465}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]}_area{1128:8871}",
+        "energy": "energy{10000:8786}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{9975:24}",
+        "energy": "energy{10000:15966}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{9898:101}",
+        "energy": "energy{10000:15587}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]}_area{9726:273}",
+        "energy": "energy{10000:11501}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[1, 1, 2]}_area{6678:3321}",
+        "energy": "energy{10000:11518}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{3314:2883:61:3740}",
+        "energy": "energy{10000:10355:11872:10870}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{1260:1:1159:7578}",
+        "energy": "energy{10000:11158:9598:9692}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]}_area{5897:481:3621}",
+        "energy": "energy{10000:12903:11395}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[0, 1, 2]}_area{6913:3086}",
+        "energy": "energy{10000:10749}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 2]}_area{3267:6266:466}",
+        "energy": "energy{10000:10377:11792}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 2]}_area{9459:476:64}",
+        "energy": "energy{10000:13879:15672}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{608:9391}",
+        "energy": "energy{10000:9181}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{7244:2755}",
+        "energy": "energy{10000:12174}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]}_area{1610:8389}",
+        "energy": "energy{10000:10401}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{3702:6297}",
+        "energy": "energy{10000:10584}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{9588:411}",
+        "energy": "energy{10000:14853}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{7032:2967}",
+        "energy": "energy{10000:12048}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{6966:3033}",
+        "energy": "energy{10000:12015}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{7:8191:1801}",
+        "energy": "energy{10000:8797:9476}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[1, 1, 2]}_area{704:9295}",
+        "energy": "energy{10000:9950}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]}_area{2787:7212}",
+        "energy": "energy{10000:10132}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 2]}_area{9437:562}",
+        "energy": "energy{10000:14610}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{4403:5596}",
+        "energy": "energy{10000:10281}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{5997:4002}",
+        "energy": "energy{10000:11332}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{9070:686:242}",
+        "energy": "energy{10000:13568:12725}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[0, 1, 2]}_area{629:9370}",
+        "energy": "energy{10000:9808}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{4837:873:4170:118}",
+        "energy": "energy{10000:10969:10480:11347}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 1]:[0, 1, 2]:[1, 1, 2]}_area{2464:2200:50:3827:1456}",
+        "energy": "energy{10000:10842:12173:10752:11624}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 1]:[1, 1, 2]}_area{8543:1456}",
+        "energy": "energy{10000:12342}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 2]}_area{1717:1577:6705}",
+        "energy": "energy{10000:10327:9976}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 2]}_area{7064:2935}",
+        "energy": "energy{10000:11023}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]}_area{5653:4346}",
+        "energy": "energy{10000:9404}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]}_area{4324:5675}",
+        "energy": "energy{10000:11050}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 1]:[1, 1, 2]}_area{1443:154:8402}",
+        "energy": "energy{10000:9967:9632}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 1]}_area{9796:203}",
+        "energy": "energy{10000:15800}"
+    },
+    {
+        "encoding": "cubic(m-3m)_face{[1, 1, 0]:[1, 1, 2]}_area{2967:7032}",
+        "energy": "energy{10000:10106}"
+    }
+]
