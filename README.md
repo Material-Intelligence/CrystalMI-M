@@ -1,8 +1,8 @@
 
-<p align="center"><h1 align="center">CrystalGPT-1</h1></p>
+<p align="center"><h1 align="center">CrystalMI-M</h1></p>
 
 ## Overview
-CrystalGPT-1 is a large language model for Crystal Morphology Design.
+CrystalMI-M is a large language model for Crystal Morphology Design.
 Trained on a vast dataset comprising over 3 million data points of crystal morphologies spanning 7 crystal systems and 32 point groups, CrystalGPT-1 excels in predicting surface energy from surface area, or predicting surface area from surface energy.
 
 
