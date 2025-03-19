@@ -3,7 +3,7 @@
 
 ## Overview
 CrystalMI-M is a large language model for Crystal Morphology Design.
-Trained on a vast dataset comprising over 3 million data points of crystal morphologies spanning 7 crystal systems and 32 point groups, CrystalGPT-1 excels in predicting surface energy from surface area, or predicting surface area from surface energy.
+Trained on a vast dataset comprising over 3 million data points of crystal morphologies spanning 7 crystal systems and 32 point groups, CrystalMI-M excels in predicting surface energy from surface area, or predicting surface area from surface energy.
 
 
 <div align=center>
@@ -42,14 +42,14 @@ In addition, you can run the following three programs to draw images or create v
 - `video_generation`: Read the images in the **image_temp** folder and generate a video of the crystal surface structure changing with the crystal surface parameters.
 
 
-## CrystalGPT-1
+## CrystalMI-M
 
 ### Setup Environment
 
 ```bash
-cd crystal_gpt
-conda env create -f environment.yml -n crystal_gpt
-conda activate crystal_gpt
+cd crystalMI_M
+conda env create -f environment.yml -n crystalMI_M
+conda activate crystalMI_M
 ```
 
 ### Preprocess
@@ -78,13 +78,13 @@ python main.py -mode train
 We recommend using the default settings to train the model. Additionally, you can set the parameters in the commands. The trained model will be saved in **preprocessed/checkpoints/final_model.pt** defaultly.
 
 ### Generate
-You can use your own trained model or our prepared model checkpoint [CrystalGPT Model](http://43.138.168.107/crystal) to generate the predicted energy of the given crystals:
+You can use your own trained model or our prepared model checkpoint [CrystalMI_M Model](http://43.138.168.107/crystal) to generate the predicted energy of the given crystals:
 ```bash
 python main.py -mode generate
 ```
 The predicted results will be saved in **preprocessed/predicted_energy_result.json**.
 
-Note: If you use our prepared model checkpoint, please download it from [CrystalGPT Model](http://43.138.168.107/crystal) and then place it in **preprocessed/checkpoints/**.
+Note: If you use our prepared model checkpoint, please download it from [CrystalMI_M Model](http://43.138.168.107/crystal) and then place it in **preprocessed/checkpoints/**.
 
 
 ### Some points to note
