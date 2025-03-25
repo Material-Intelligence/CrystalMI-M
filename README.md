@@ -107,10 +107,9 @@ Below are examples of actual data entries:
      - `Symmetry group` : Specifies the crystal system and point group (e.g., hexagonal(6), tetragonal(4-mmm)).
      - `Face vectors` : Lists the Miller indices of the crystal faces (e.g., [3,-4,0]:[0,2,-1]:[2,-2,1]).
      - `Area values` : Provides the surface area values for each face (e.g., 3559:3220:3220).
-   - `Example`: "hexagonal(6)_face{[3,-4,0]:[0,2,-1]:[2,-2,1]}_area{3559:3220:3220}"
 
 - `energy` : A string representing the energy values associated with the crystal structure.
-   - `Example`: "energy{10000:9767:11804}"
+
 
 
 ### Train
