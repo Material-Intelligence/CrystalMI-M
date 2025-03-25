@@ -65,10 +65,53 @@ python split_json.py
 ```
 The summary data can be divided into three parts and stored in the **preprocessed/splits** directory: test.json, train.json, and val.json.
 
-#### Example input and output
+#### Data format example
+Each data entry follows the JSON structure outlined below. The dataset consists of key-value pairs, where each entry contains an encoding field representing the crystal structure and an energy field representing the associated energy values.
 
-- Input: {"encoding": "cubic(m-3m)_face{[1, 0, 0]:[1, 1, 0]:[1, 1, 2]}_area{6363:211:3424}"}
-- Output: {"energy": "energy{10000:13525:12372}"}
+##### Input Format
+Each input entry is a JSON object with the following structure:
+```json
+{
+    "encoding": "string",
+    "energy": "string"
+}
+```
+- `encoding`: A string describing the crystal structure, including symmetry, face vectors, and area values.
+
+   - `Example`: "hexagonal(6)_face{[3,-4,0]:[0,2,-1]:[2,-2,1]}_area{3559:3220:3220}"
+
+- `energy` : A string representing the energy values associated with the crystal structure.
+   - `Example`: "energy{10000:9767:11804}"
+
+##### Example Entries
+Below are examples of actual data entries:
+```json
+   [
+    {
+        "encoding": "hexagonal(6)_face{[3,-4,0]:[0,2,-1]:[2,-2,1]}_area{3559:3220:3220}",
+        "energy": "energy{10000:9767:11804}"
+    },
+    {
+        "encoding": "tetragonal(4-mmm)_face{[1,-1,0]:[0,1,1]:[0,2,0]:[2,1,1]}_area{2658:2689:2344:2308}",
+        "energy": "energy{10000:12957:10272:12473}"
+    },
+    {
+        "encoding": "tetragonal(-42m)_face{[0,2,-1]:[1,3,0]}_area{8931:1068}",
+        "energy": "energy{10000:12709}"
+    }
+]
+```
+
+- `encoding`: 
+   - A string describing the crystal structure, including symmetry, face vectors, and area values.
+     - `Symmetry group` : Specifies the crystal system and point group (e.g., hexagonal(6), tetragonal(4-mmm)).
+     - `Face vectors` : Lists the Miller indices of the crystal faces (e.g., [3,-4,0]:[0,2,-1]:[2,-2,1]).
+     - `Area values` : Provides the surface area values for each face (e.g., 3559:3220:3220).
+   - `Example`: "hexagonal(6)_face{[3,-4,0]:[0,2,-1]:[2,-2,1]}_area{3559:3220:3220}"
+
+- `energy` : A string representing the energy values associated with the crystal structure.
+   - `Example`: "energy{10000:9767:11804}"
+
 
 ### Train
 You can train the model from scratch using the preprocessed dataset:
@@ -76,6 +119,12 @@ You can train the model from scratch using the preprocessed dataset:
 python main.py -mode train
 ```
 We recommend using the default settings to train the model. Additionally, you can set the parameters in the commands. The trained model will be saved in **preprocessed/checkpoints/final_model.pt** defaultly.
+
+The following is the loss curve during model training:
+
+<div align=center>
+<img src=figures/loss.png width="500px">
+</div>
 
 ### Generate
 You can use your own trained model or our prepared model checkpoint [CrystalMI_M Model](http://43.138.168.107/crystal) to generate the predicted energy of the given crystals:
